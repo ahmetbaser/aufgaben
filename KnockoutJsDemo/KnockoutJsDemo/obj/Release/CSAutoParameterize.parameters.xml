@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BookContextDB-Web.config Connection String" description="BookContextDB Die in der Datei &amp;quot;web.config&amp;quot; festgelegte Verbindungszeichenfolge, die von der Anwendung für den Zugriff auf die Datenbank verwendet wird." defaultValue="Data Source=.\SQLEXPRESS; Initial Catalog=BookContextKnockout; Integrated Security=True; MultipleActiveResultSets=True; " tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ITA6-TN10\\Documents\\GitHub\\Entity\\KnockoutJsDemo\\KnockoutJsDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookContextDB']/@connectionString" />
+  </parameter>
+</parameters>

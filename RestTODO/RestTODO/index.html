@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="Content/animate.css" rel="stylesheet" />
+</head>
+<style>
+    span.glyphicon-remove {
+        float: right;
+        margin-top: -28px;
+        padding-right: 9px;
+    }
+
+    span.glyphicon-ok {
+        float: right;
+        margin-top: -28px;
+        padding-right: 39px;
+    }
+
+        span.glyphicon-remove:hover , span.glyphicon-ok:hover {
+            cursor: pointer;
+        }
+
+    ul > li[data-status='false'] {
+        color: #a94442;
+        background-color: #f2dede;
+    }
+
+    ul > li[data-status='true'] {
+        color: #3c763d;
+        background-color: #dff0d8;
+    }
+</style>
+<body>
+
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h3>REST Full Services TODO APP</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="text" name="Text" id="Text" placeholder="Einen Eintrag hinzufügen" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-success" aria-label="Left Align" id="hinzufügen">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Hinzufügen
+                </button>
+
+                <br />
+                <div class="pull-right" style="margin-right:20px" ;>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="alle" value="option1" checked> Alle
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="offene" value="option2"> Offene
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="erledigte" value="option2"> Erledigte
+                    </label>
+                </div>
+                <br />
+                <hr />
+                <section>
+                    <ul class="list-group">
+                        <li class="list-group-item disabled">
+                            Todo Liste
+                        </li>
+                    </ul>
+                </section>
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/Todo.js"></script>
+</body>
+</html>

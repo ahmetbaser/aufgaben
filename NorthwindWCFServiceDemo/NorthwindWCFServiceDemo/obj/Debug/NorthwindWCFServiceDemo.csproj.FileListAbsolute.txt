@@ -1,0 +1,11 @@
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\NorthwindWCFServiceDemo.exe.config
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\NorthwindWCFServiceDemo.exe
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\NorthwindWCFServiceDemo.pdb
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\EntityFramework.dll
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\EntityFramework.xml
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\bin\Debug\de\EntityFramework.resources.dll
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\obj\Debug\NorthwindWCFServiceDemo.exe
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\obj\Debug\NorthwindWCFServiceDemo.pdb
+C:\Users\ITA6-TN10\Documents\GitHub\Entity\NorthwindWCFServiceDemo\NorthwindWCFServiceDemo\obj\Debug\NorthwindWCFServiceDemo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/Mvc" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ITA6-TN10\\Documents\\GitHub\\Entity\\KnockoutJsDemo\\KnockoutJsDemo\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ITA6-TN10\\Documents\\GitHub\\Entity\\KnockoutJsDemo\\KnockoutJsDemo\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="BookContextDB-Web.config Connection String" description="" value="Data Source=.\SQLEXPRESS; Initial Catalog=BookContextKnockout; Integrated Security=True; MultipleActiveResultSets=True; " tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ITA6-TN10\\Documents\\GitHub\\Entity\\KnockoutJsDemo\\KnockoutJsDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookContextDB']/@connectionString" />
+  </parameter>
+</parameters>

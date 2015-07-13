@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TeachSQLModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BLZTabelle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="BLZ" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Merkmal" Type="Int16" />
+    <Property Name="Bezeichnung" Type="String" MaxLength="58" FixedLength="false" Unicode="false" />
+    <Property Name="PLZ" Type="Int32" />
+    <Property Name="Ort" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="Kurzbezeichnung" Type="String" MaxLength="27" FixedLength="false" Unicode="false" />
+    <Property Name="PAN" Type="Int32" />
+    <Property Name="BIC" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="Pruefzifferberechnungsmethode" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Datensatznummer" Type="Int32" />
+    <Property Name="Aenderungskennzeichen" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="Bankleitzahlloeschung" Type="Int16" />
+    <Property Name="NachfolgeBLZ" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="TeachSQLEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BLZTabelle" EntityType="Self.BLZTabelle" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TeachSQLModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BLZTabelle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="BLZ" Type="nvarchar" MaxLength="50" />
+    <Property Name="Merkmal" Type="smallint" />
+    <Property Name="Bezeichnung" Type="varchar" MaxLength="58" />
+    <Property Name="PLZ" Type="int" />
+    <Property Name="Ort" Type="varchar" MaxLength="35" />
+    <Property Name="Kurzbezeichnung" Type="varchar" MaxLength="27" />
+    <Property Name="PAN" Type="int" />
+    <Property Name="BIC" Type="varchar" MaxLength="11" />
+    <Property Name="Pruefzifferberechnungsmethode" Type="varchar" MaxLength="2" />
+    <Property Name="Datensatznummer" Type="int" />
+    <Property Name="Aenderungskennzeichen" Type="varchar" MaxLength="1" />
+    <Property Name="Bankleitzahlloeschung" Type="smallint" />
+    <Property Name="NachfolgeBLZ" Type="nvarchar" MaxLength="50" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TeachSQLModelStoreContainer">
+    <EntitySet Name="BLZTabelle" EntityType="Self.BLZTabelle" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

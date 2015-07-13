@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TeachSQLModelStoreContainer" CdmEntityContainer="TeachSQLEntities">
+    <EntitySetMapping Name="BLZTabelle">
+      <EntityTypeMapping TypeName="TeachSQLModel.BLZTabelle">
+        <MappingFragment StoreEntitySet="BLZTabelle">
+          <ScalarProperty Name="BLZ" ColumnName="BLZ" />
+          <ScalarProperty Name="Merkmal" ColumnName="Merkmal" />
+          <ScalarProperty Name="Bezeichnung" ColumnName="Bezeichnung" />
+          <ScalarProperty Name="PLZ" ColumnName="PLZ" />
+          <ScalarProperty Name="Ort" ColumnName="Ort" />
+          <ScalarProperty Name="Kurzbezeichnung" ColumnName="Kurzbezeichnung" />
+          <ScalarProperty Name="PAN" ColumnName="PAN" />
+          <ScalarProperty Name="BIC" ColumnName="BIC" />
+          <ScalarProperty Name="Pruefzifferberechnungsmethode" ColumnName="Pruefzifferberechnungsmethode" />
+          <ScalarProperty Name="Datensatznummer" ColumnName="Datensatznummer" />
+          <ScalarProperty Name="Aenderungskennzeichen" ColumnName="Aenderungskennzeichen" />
+          <ScalarProperty Name="Bankleitzahlloeschung" ColumnName="Bankleitzahlloeschung" />
+          <ScalarProperty Name="NachfolgeBLZ" ColumnName="NachfolgeBLZ" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
